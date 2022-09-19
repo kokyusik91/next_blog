@@ -1,0 +1,28 @@
+{
+  "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "javascript.format.enable": false,
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "editor.autoClosingOvertype": "never",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.requireConfig": true,
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.rulers": [120],
+  "editor.wordWrapColumn": 120,
+  "diffEditor.ignoreTrimWhitespace": false,
+
+}
