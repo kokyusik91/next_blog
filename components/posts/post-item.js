@@ -20,7 +20,13 @@ function PostItem(props) {
         <a>
           <div className={classes.image}>
             {/* 이미지의 크기가 다른 경우에는 CSS에서 처리 해준다. */}
-            <Image src={imagePath} alt={title} width={300} height={200} />
+            <Image
+              src={imagePath}
+              alt={title}
+              width={300}
+              height={200}
+              layout="responsive"
+            />
           </div>
           <div className={classes.content}>
             <h3>{title}</h3>
