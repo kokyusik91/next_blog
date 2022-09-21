@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-
+// HtML 구성을 바꿀 때 사용
 class MyDocument extends Document {
   render() {
     return (
